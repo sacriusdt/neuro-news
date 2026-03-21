@@ -1,0 +1,1122 @@
+[
+  {
+    "title": "CNN – Top Stories",
+    "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Top Stories",
+      "Breaking News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Time Magazine – Top Stories",
+    "url": "http://feeds.feedburner.com/time/topstories",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Top Stories",
+      "Magazine News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "NYTimes – Homepage",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Homepage",
+      "National & International News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo News – Latest news and headlines",
+    "url": "https://www.yahoo.com/news/rss/topstories",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Top Stories",
+      "Headlines"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Washington Post",
+    "url": "http://feeds.washingtonpost.com/rss/world",
+    "category": "News",
+    "subcategories": [
+      "World News",
+      "International News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Vox – All",
+    "url": "https://www.vox.com/rss/index.xml",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Explainers",
+      "Politics & Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "BBC News – World",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "News",
+    "subcategories": [
+      "World News",
+      "International News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Huffington Post",
+    "url": "https://www.huffingtonpost.com/section/front-page/feed",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Front Page",
+      "Opinion & Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "CNN – World news",
+    "url": "http://rss.cnn.com/rss/cnn_world.rss",
+    "category": "News",
+    "subcategories": [
+      "World News",
+      "International News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "ABC News – Top stories",
+    "url": "http://abcnews.go.com/abcnews/topstories",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Top Stories",
+      "Breaking News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Reuters – Top stories",
+    "url": "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Top Stories",
+      "Wire Service"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Drudge Report",
+    "url": "http://www.drudgereportfeed.com/rss.xml",
+    "category": "News",
+    "subcategories": [
+      "Headlines",
+      "Aggregated News",
+      "Politics & Current Affairs"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Market Watch – Top stories",
+    "url": "http://www.marketwatch.com/rss/topstories/",
+    "category": "News",
+    "subcategories": [
+      "Business News",
+      "Markets",
+      "Top Stories"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Salon.com",
+    "url": "https://www.salon.com/feed/",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Opinion",
+      "Politics & Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "New Yorker – Everything",
+    "url": "http://www.newyorker.com/services/rss/feeds/everything.xml",
+    "category": "News",
+    "subcategories": [
+      "Magazine News",
+      "Culture",
+      "Politics & Commentary"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Daily Mail – Latest stories",
+    "url": "http://www.dailymail.co.uk/articles.rss",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Tabloid News",
+      "Latest Stories"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "New York Post",
+    "url": "https://nypost.com/feed/",
+    "category": "News",
+    "subcategories": [
+      "General News",
+      "Tabloid News",
+      "Latest Stories"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Fox News Science",
+    "url": "http://feeds.foxnews.com/foxnews/scitech",
+    "category": "News",
+    "subcategories": [
+      "Science News",
+      "Technology News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "BBC Sports",
+    "url": "http://www.feeder.co/add-feed?url=http://feeds.bbci.co.uk/sport/rss.xml?edition=int#",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "International Sports"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "ESPN",
+    "url": "http://www.espn.com/espn/rss/news",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Sports News",
+      "Headlines"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "NBA.com",
+    "url": "http://www.nba.com/rss/nba_rss.xml",
+    "category": "Sports",
+    "subcategories": [
+      "Basketball",
+      "NBA"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "NFL.com",
+    "url": "http://www.nfl.com/rss/rsslanding?searchString=home",
+    "category": "Sports",
+    "subcategories": [
+      "American Football",
+      "NFL"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/rss",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Sports News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - NBA",
+    "url": "https://sports.yahoo.com/nba/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Basketball",
+      "NBA"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - MLB",
+    "url": "https://sports.yahoo.com/mlb/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Baseball",
+      "MLB"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - NFL",
+    "url": "https://sports.yahoo.com/nfl/rss",
+    "category": "Sports",
+    "subcategories": [
+      "American Football",
+      "NFL"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - NCAAB",
+    "url": "https://sports.yahoo.com/ncaab/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Basketball",
+      "College Basketball",
+      "NCAAB"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - NHL",
+    "url": "https://sports.yahoo.com/nhl/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Ice Hockey",
+      "NHL"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Yahoo Sports - UFC",
+    "url": "https://sports.yahoo.com/ufc/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Combat Sports",
+      "MMA",
+      "UFC"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "BBC Sports – World edition",
+    "url": "http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "International Sports",
+      "World Edition"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "We the sports guys",
+    "url": "https://www.westhesportsguy.com/feeds/posts/default",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Commentary",
+      "Independent Sports Media"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Fox Sports",
+    "url": "https://api.foxsports.com/v1/rss?partnerKey=zBaFxRyGKCfxBagJG9b8pqLyndmvo7UU",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Sports News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Talk Sports",
+    "url": "https://talksport.com/rss/sports-news/all/feed",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Sports News",
+      "Radio & Commentary"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "CBS Sports",
+    "url": "https://rss.cbssports.com/rss/headlines/",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Headlines"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Fifa.com",
+    "url": "www.fifa.com/rss/index.xml",
+    "category": "Sports",
+    "subcategories": [
+      "Football",
+      "Soccer",
+      "FIFA"
+    ],
+    "country": "International"
+  },
+  {
+    "title": "NU Sports",
+    "url": "http://nusports.com/rss_feeds.aspx",
+    "category": "Sports",
+    "subcategories": [
+      "College Sports",
+      "University Athletics"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Sport1.de",
+    "url": "https://www.sport1.de/news.rss",
+    "category": "Sports",
+    "subcategories": [
+      "General Sports",
+      "Sports News"
+    ],
+    "country": "Germany"
+  },
+  {
+    "title": "TriathlonMag",
+    "url": "https://www.triathlonmag.com.au/rss",
+    "category": "Sports",
+    "subcategories": [
+      "Triathlon",
+      "Endurance Sports"
+    ],
+    "country": "Australia"
+  },
+  {
+    "title": "ISSF-sports.org",
+    "url": "https://www.issf-sports.org/rss/news.html",
+    "category": "Sports",
+    "subcategories": [
+      "Shooting Sports",
+      "International Federation"
+    ],
+    "country": "International"
+  },
+  {
+    "title": "Techcrunch",
+    "url": "http://feeds.feedburner.com/Techcrunch",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Startups",
+      "Venture Capital"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Wired",
+    "url": "http://feeds.wired.com/wired/index",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Science",
+      "Digital Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "NYTimes – Technology",
+    "url": "http://feeds.nytimes.com/nyt/rss/Technology",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Industry News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "MacWorld",
+    "url": "http://rss.macworld.com/macworld/feeds/main",
+    "category": "Technology",
+    "subcategories": [
+      "Apple",
+      "Consumer Technology"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "PCWorld",
+    "url": "http://feeds.pcworld.com/pcworld/latestnews",
+    "category": "Technology",
+    "subcategories": [
+      "Computing",
+      "PC Hardware",
+      "Tech News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Techworld",
+    "url": "http://www.techworld.com/news/rss",
+    "category": "Technology",
+    "subcategories": [
+      "Enterprise Technology",
+      "IT News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "LifeHacker",
+    "url": "https://lifehacker.com/rss",
+    "category": "Technology",
+    "subcategories": [
+      "Productivity",
+      "Consumer Technology",
+      "How-To"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "ReadWriteWeb",
+    "url": "http://feeds.feedburner.com/readwriteweb",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Startups",
+      "Digital Business"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Engadget.com",
+    "url": "http://www.engadget.com/rss-full.xml",
+    "category": "Technology",
+    "subcategories": [
+      "Consumer Technology",
+      "Gadgets",
+      "Tech News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "ReadWrite",
+    "url": "http://www.feeder.co/add-feed?url=http://readwrite.com/feed/",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Startups",
+      "Digital Business"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Mashable",
+    "url": "http://feeds.mashable.com/Mashable",
+    "category": "Technology",
+    "subcategories": [
+      "Technology",
+      "Digital Culture",
+      "Social Media"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "O’Reilly Radar",
+    "url": "http://feeds.feedburner.com/oreilly/radar/atom",
+    "category": "Technology",
+    "subcategories": [
+      "Software Development",
+      "Data",
+      "Technology Analysis"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Gizmodo",
+    "url": "https://gizmodo.com/rss",
+    "category": "Technology",
+    "subcategories": [
+      "Consumer Technology",
+      "Gadgets",
+      "Science & Tech Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Technology Review",
+    "url": "https://www.technologyreview.com/topnews.rss",
+    "category": "Technology",
+    "subcategories": [
+      "Emerging Technology",
+      "Science",
+      "Innovation"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "VentureBeat",
+    "url": "https://venturebeat.com/2013/09/05/venturebeat-rss/",
+    "category": "Technology",
+    "subcategories": [
+      "Tech News",
+      "Startups",
+      "AI & Enterprise"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Recode.net",
+    "url": "http://www.recode.net/rss/index.xml",
+    "category": "Technology",
+    "subcategories": [
+      "Tech Industry",
+      "Media",
+      "Business of Technology"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Computer World",
+    "url": "http://www.computerworld.com/index.rss",
+    "category": "Technology",
+    "subcategories": [
+      "Enterprise IT",
+      "Computing",
+      "Tech News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "MakeUsOf",
+    "url": "http://feeds.feedburner.com/Makeuseof",
+    "category": "Technology",
+    "subcategories": [
+      "Consumer Technology",
+      "How-To",
+      "Software"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "CNet.com",
+    "url": "http://www.cnet.com/rss/news",
+    "category": "Technology",
+    "subcategories": [
+      "Consumer Technology",
+      "Product News",
+      "Reviews & News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "HowToGeek",
+    "url": "http://feeds.howtogeek.com/HowToGeek",
+    "category": "Technology",
+    "subcategories": [
+      "How-To",
+      "Computing",
+      "Consumer Technology"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Atlantic Business Channel",
+    "url": "http://feeds.feedburner.com/AtlanticBusinessChannel",
+    "category": "Business",
+    "subcategories": [
+      "Business News",
+      "Economy",
+      "Analysis"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Entrepeneur.com",
+    "url": "http://feeder.co/add-feed?url=feeds.feedburner.com/entrepreneur/latest",
+    "category": "Business",
+    "subcategories": [
+      "Entrepreneurship",
+      "Small Business",
+      "Startups"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Harvard Business",
+    "url": "http://feeds.harvardbusiness.org/harvardbusiness/",
+    "category": "Business",
+    "subcategories": [
+      "Management",
+      "Leadership",
+      "Business Strategy"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Freakonomics",
+    "url": "http://freakonomics.com//feed/",
+    "category": "Business",
+    "subcategories": [
+      "Economics",
+      "Behavioral Economics",
+      "Analysis"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "The Big Picture",
+    "url": "http://feeds.feedburner.com/TheBigPicture",
+    "category": "Business",
+    "subcategories": [
+      "Markets",
+      "Investing",
+      "Economic Commentary"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Venture Beat",
+    "url": "http://feeds.feedburner.com/venturebeat/SZYF",
+    "category": "Business",
+    "subcategories": [
+      "Startups",
+      "Venture Capital",
+      "Tech Business"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Fortune",
+    "url": "http://fortune.com/feed/",
+    "category": "Business",
+    "subcategories": [
+      "Business News",
+      "Corporate News",
+      "Markets"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Economist",
+    "url": "http://www.economist.com/rss/the_world_this_week_rss.xml",
+    "category": "Business",
+    "subcategories": [
+      "World Economy",
+      "Business News",
+      "Global Affairs"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "The Non-Profit Times",
+    "url": "http://www.thenonprofittimes.com/feed/",
+    "category": "Business",
+    "subcategories": [
+      "Nonprofit Sector",
+      "Management",
+      "Fundraising"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "SBN Online",
+    "url": "http://www.sbnonline.com/feed/",
+    "category": "Business",
+    "subcategories": [
+      "Small Business",
+      "Management",
+      "Corporate Leadership"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "McKinsey",
+    "url": "https://www.mckinsey.com/insights/rss.aspx",
+    "category": "Business",
+    "subcategories": [
+      "Consulting",
+      "Management",
+      "Business Strategy"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Home Business Mag",
+    "url": "https://homebusinessmag.com/feed/",
+    "category": "Business",
+    "subcategories": [
+      "Home Business",
+      "Entrepreneurship",
+      "Small Business"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Business Insider",
+    "url": "http://feeds2.feedburner.com/businessinsider",
+    "category": "Business",
+    "subcategories": [
+      "Business News",
+      "Markets",
+      "Tech Business"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Calculated Risk",
+    "url": "http://feeds.feedburner.com/CalculatedRisk",
+    "category": "Business",
+    "subcategories": [
+      "Economics",
+      "Housing",
+      "Macroeconomics"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Huffington Post – Business",
+    "url": "https://www.huffingtonpost.com/section/business/feed",
+    "category": "Business",
+    "subcategories": [
+      "Business News",
+      "Economy",
+      "Corporate News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Slate.com – Politics",
+    "url": "http://www.slate.com/articles/news_and_politics/politics.teaser.all.10.rss/",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Political Commentary"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "World Affair Journal",
+    "url": "http://www.worldaffairsjournal.org/essay-feed.xml",
+    "category": "Politics",
+    "subcategories": [
+      "Foreign Policy",
+      "International Affairs",
+      "Essays"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Fox News – Politics",
+    "url": "http://feeds.foxnews.com/foxnews/politics",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Political News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "CNN Politics",
+    "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Political News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Reuters – Politcs",
+    "url": "http://feeds.reuters.com/Reuters/PoliticsNews",
+    "category": "Politics",
+    "subcategories": [
+      "Political News",
+      "Wire Service",
+      "International Politics"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "USA Today – Politics",
+    "url": "http://rssfeeds.usatoday.com/TP-OnPolitics",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Political News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Washington Examiner",
+    "url": "http://www.washingtonexaminer.com/rss/politics",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Political Commentary"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Wallstreet Journal – Politics",
+    "url": "http://online.wsj.com/xml/rss/3_7087.xml",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Policy",
+      "Political News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "The Nation",
+    "url": "https://www.thenation.com/feed/?post_type=article",
+    "category": "Politics",
+    "subcategories": [
+      "Politics",
+      "Opinion",
+      "Public Affairs"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Daily Signal",
+    "url": "http://dailysignal.com//feed/",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Policy",
+      "Commentary"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "MSNBC",
+    "url": "http://www.msnbc.com/feeds/latest",
+    "category": "Politics",
+    "subcategories": [
+      "Politics",
+      "US News",
+      "Current Affairs"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Politico",
+    "url": "https://www.politico.com/rss/politics.xml",
+    "category": "Politics",
+    "subcategories": [
+      "US Politics",
+      "Policy",
+      "Political News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Realwire",
+    "url": "https://www.realwire.com/rss/feeds.asp?cat=Politics",
+    "category": "Politics",
+    "subcategories": [
+      "Political Press Releases",
+      "Public Affairs"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Gamespot",
+    "url": "https://www.gamespot.com/feeds/mashup/",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News",
+      "Reviews"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Nintendo Life",
+    "url": "http://www.nintendolife.com/feeds/latest",
+    "category": "Gaming",
+    "subcategories": [
+      "Nintendo",
+      "Gaming News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "JoyStiq",
+    "url": "http://www.joystiq.com/rss.xml",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Indiegames.com",
+    "url": "http://www.indiegames.com/atom.xml",
+    "category": "Gaming",
+    "subcategories": [
+      "Indie Games",
+      "Gaming News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Arstechnica – Gaming",
+    "url": "http://feeds.arstechnica.com/arstechnica/gaming/",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News",
+      "Industry Analysis"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Polygon",
+    "url": "https://www.polygon.com/rss/index.xml",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News",
+      "Culture"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Touch Arcade",
+    "url": "http://toucharcade.com/feed/",
+    "category": "Gaming",
+    "subcategories": [
+      "Mobile Gaming",
+      "iOS Gaming"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Game Informer",
+    "url": "http://www.gameinformer.com/p/rss.aspx",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News",
+      "Reviews"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Xbox.com – News",
+    "url": "http://news.xbox.com/feed",
+    "category": "Gaming",
+    "subcategories": [
+      "Xbox",
+      "Console Gaming",
+      "Official News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "/r/gamers – Reddit",
+    "url": "https://www.reddit.com/r/gamers/.rss",
+    "category": "Gaming",
+    "subcategories": [
+      "Gaming Community",
+      "Reddit",
+      "User-Generated Content"
+    ],
+    "country": "International"
+  },
+  {
+    "title": "vg247",
+    "url": "http://www.vg247.com/feed/",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "My Nintendo News",
+    "url": "https://mynintendonews.com/feed",
+    "category": "Gaming",
+    "subcategories": [
+      "Nintendo",
+      "Gaming News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Rock Paper Shotgun",
+    "url": "https://www.rockpapershotgun.com/feed",
+    "category": "Gaming",
+    "subcategories": [
+      "PC Gaming",
+      "Gaming News",
+      "Reviews"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "pcgamesn.com",
+    "url": "https://www.pcgamesn.com/rss",
+    "category": "Gaming",
+    "subcategories": [
+      "PC Gaming",
+      "Gaming News"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Operation Sports",
+    "url": "http://www.operationsports.com/rss.xml",
+    "category": "Gaming",
+    "subcategories": [
+      "Sports Games",
+      "Gaming News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Kotaku",
+    "url": "https://kotaku.com/rss",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming Culture",
+      "Industry News"
+    ],
+    "country": "United States"
+  },
+  {
+    "title": "Videogamer.com",
+    "url": "http://feeds.videogamer.com/rss/allupdates.xml",
+    "category": "Gaming",
+    "subcategories": [
+      "Video Games",
+      "Gaming News",
+      "Reviews"
+    ],
+    "country": "United Kingdom"
+  },
+  {
+    "title": "Pushsquare",
+    "url": "http://www.pushsquare.com/feeds/latest",
+    "category": "Gaming",
+    "subcategories": [
+      "PlayStation",
+      "Console Gaming",
+      "Gaming News"
+    ],
+    "country": "United Kingdom"
+  }
+]
