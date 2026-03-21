@@ -1,2 +1,0 @@
-[console_scripts]
-neuro-news = neuro_news.cli:app

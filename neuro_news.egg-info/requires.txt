@@ -1,8 +1,0 @@
-typer
-rich
-httpx
-feedparser
-platformdirs
-pydantic
-python-dateutil
-python-dotenv
