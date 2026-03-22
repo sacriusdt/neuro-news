@@ -73,6 +73,7 @@ neuro-news commands
 | `chat` | Ask a natural-language question |
 | `stats` | Show a snapshot of the database |
 | `feeds list` | List all configured RSS feeds |
+| `feeds add` | Add a new RSS feed |
 | `streams list` | List all saved search streams |
 | `streams create` | Create a new saved search stream |
 | `streams run` | Run a saved stream |
@@ -218,6 +219,12 @@ Feeds are defined in `feeds.json` at the root of the project. Each entry has:
   "country": "United States",
   "subcategories": ["AI", "Gadgets"]
 }
+```
+
+You can also add a feed from the CLI:
+
+```bash
+neuro-news feeds add "My Feed" "https://example.com/rss" --category "Technology" --country "United States" --subcategory "AI"
 ```
 
 After editing `feeds.json`, re-run `neuro-news init` to reload. Existing articles are not deleted.

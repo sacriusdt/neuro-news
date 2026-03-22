@@ -13,7 +13,7 @@ from rich.text import Text
 
 from .chat import run_chat
 from .config import ConfigStore
-from .db import connect, init_db, load_feeds
+from .db import add_feed, connect, init_db, load_feeds
 from .ingest import fetch_all
 from .providers.base import ProviderError
 from .search import SearchFilters, search_articles
@@ -239,6 +239,33 @@ def feeds_list() -> None:
         )
 
     console.print(table)
+
+
+@feeds_app.command("add")
+def feeds_add(
+    title: str = typer.Argument(..., help="Feed title"),
+    url: str = typer.Argument(..., help="Feed URL"),
+    category: Optional[str] = typer.Option(None, help="Category"),
+    country: Optional[str] = typer.Option(None, help="Country"),
+    subcategory: list[str] = typer.Option([], "--subcategory", help="Subcategory (repeatable)"),
+) -> None:
+    store, config = _load_config()
+    _ensure_db(config.db_path)
+    conn = connect(config.db_path)
+    added = add_feed(
+        conn,
+        title=title,
+        url=url,
+        category=category,
+        country=country,
+        subcategories=subcategory,
+    )
+    conn.commit()
+    conn.close()
+    if added:
+        console.print("Feed added.")
+    else:
+        console.print("Feed not added. Check title and URL.")
 
 
 @app.command()

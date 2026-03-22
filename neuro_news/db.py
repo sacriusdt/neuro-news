@@ -99,6 +99,41 @@ def init_db(conn: sqlite3.Connection) -> None:
     conn.commit()
 
 
+def add_feed(
+    conn: sqlite3.Connection,
+    *,
+    title: str,
+    url: str,
+    category: str | None,
+    country: str | None,
+    subcategories: list[str] | None = None,
+) -> int:
+    title = title.strip()
+    url = url.strip()
+    if not title or not url:
+        return 0
+
+    conn.execute(
+        """
+        INSERT INTO feeds (title, url, category, country)
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(url) DO UPDATE SET
+            title=excluded.title,
+            category=excluded.category,
+            country=excluded.country
+        """,
+        (title, url, category, country),
+    )
+    feed_id = conn.execute("SELECT id FROM feeds WHERE url=?", (url,)).fetchone()[0]
+    conn.execute("DELETE FROM feed_subcategories WHERE feed_id=?", (feed_id,))
+    if subcategories:
+        conn.executemany(
+            "INSERT OR IGNORE INTO feed_subcategories(feed_id, subcategory) VALUES (?, ?)",
+            [(feed_id, sub) for sub in subcategories if sub],
+        )
+    return 1
+
+
 def load_feeds(conn: sqlite3.Connection, feeds_path: str) -> int:
     path = Path(feeds_path)
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -111,27 +146,14 @@ def load_feeds(conn: sqlite3.Connection, feeds_path: str) -> int:
         country = feed.get("country")
         subcategories = feed.get("subcategories", [])
 
-        if not title or not url:
-            continue
-
-        conn.execute(
-            """
-            INSERT INTO feeds (title, url, category, country)
-            VALUES (?, ?, ?, ?)
-            ON CONFLICT(url) DO UPDATE SET
-                title=excluded.title,
-                category=excluded.category,
-                country=excluded.country
-            """,
-            (title, url, category, country),
+        inserted += add_feed(
+            conn,
+            title=title,
+            url=url,
+            category=category,
+            country=country,
+            subcategories=subcategories,
         )
-        feed_id = conn.execute("SELECT id FROM feeds WHERE url=?", (url,)).fetchone()[0]
-        conn.execute("DELETE FROM feed_subcategories WHERE feed_id=?", (feed_id,))
-        conn.executemany(
-            "INSERT OR IGNORE INTO feed_subcategories(feed_id, subcategory) VALUES (?, ?)",
-            [(feed_id, sub) for sub in subcategories],
-        )
-        inserted += 1
 
     conn.commit()
     return inserted
