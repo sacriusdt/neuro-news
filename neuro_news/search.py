@@ -76,15 +76,73 @@ def normalize_country(value: str) -> str:
     return aliases.get(raw, value.strip())
 
 
-def normalize_fts_query(query: str) -> str:
-    tokens = [token for token in re.split(r"\s+", query.strip()) if token]
-    if not tokens:
-        return ""
-    safe = []
+STOPWORDS = {
+    "a",
+    "an",
+    "the",
+    "and",
+    "or",
+    "but",
+    "for",
+    "with",
+    "about",
+    "on",
+    "in",
+    "to",
+    "of",
+    "de",
+    "des",
+    "du",
+    "la",
+    "le",
+    "les",
+    "un",
+    "une",
+    "et",
+    "ou",
+    "mais",
+    "sur",
+    "dans",
+    "pour",
+    "avec",
+    "au",
+    "aux",
+    "par",
+    "plus",
+    "latest",
+    "recent",
+    "dernier",
+    "derniers",
+    "recentes",
+}
+
+
+def tokenize_query(query: str) -> list[str]:
+    cleaned = _strip_accents(query.lower())
+    cleaned = re.sub(r"[^\w\s]", " ", cleaned, flags=re.UNICODE)
+    tokens = [token for token in re.split(r"\s+", cleaned.strip()) if token]
+    keywords = []
     for token in tokens:
-        token = token.replace('"', "")
-        safe.append(f'"{token}"')
-    return " ".join(safe)
+        if len(token) < 3:
+            continue
+        if token in STOPWORDS:
+            continue
+        keywords.append(token)
+    return keywords
+
+
+def build_fts_query(query: str, mode: str = "and") -> str:
+    raw_tokens = tokenize_query(query)
+    if not raw_tokens:
+        raw_tokens = [token for token in re.split(r"\s+", query.strip()) if token]
+    if not raw_tokens:
+        return ""
+    safe = [token.replace('"', "") for token in raw_tokens]
+    quoted = [f'"{token}"' for token in safe if token]
+    if not quoted:
+        return ""
+    joiner = " OR " if mode.lower() == "or" else " "
+    return joiner.join(quoted)
 
 
 def search_articles(
@@ -92,6 +150,7 @@ def search_articles(
     query: str | None,
     filters: SearchFilters,
     limit: int,
+    fts_mode: str = "and",
 ) -> list[dict[str, Any]]:
     conn = connect(db_path)
 
@@ -105,7 +164,7 @@ def search_articles(
     params: list[Any] = []
 
     if query:
-        fts_query = normalize_fts_query(query)
+        fts_query = build_fts_query(query, fts_mode)
         if fts_query:
             sql = (
                 "SELECT a.id, a.title, a.url, a.summary, a.published_at, a.fetched_at, "
